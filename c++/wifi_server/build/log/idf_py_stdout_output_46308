@@ -1,0 +1,102 @@
+-- ccache will be used for faster recompilation
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file C:/Users/aleen/Desktop/ESP32/c++/hello2/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- App "hello2" version: 1
+-- Adding linker script C:/Users/aleen/Desktop/ESP32/c++/hello2/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/Users/aleen/Desktop/ESP32/c++/hello2/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script C:/Users/aleen/esp/v5.3.1/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_driver_ana_cmpr esp_driver_cam esp_driver_dac esp_driver_gpio esp_driver_gptimer esp_driver_i2c esp_driver_i2s esp_driver_isp esp_driver_jpeg esp_driver_ledc esp_driver_mcpwm esp_driver_parlio esp_driver_pcnt esp_driver_ppa esp_driver_rmt esp_driver_sdio esp_driver_sdm esp_driver_sdmmc esp_driver_sdspi esp_driver_spi esp_driver_touch_sens esp_driver_tsens esp_driver_uart esp_driver_usb_serial_jtag esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_vfs_console esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: C:/Users/aleen/esp/v5.3.1/esp-idf/components/app_trace C:/Users/aleen/esp/v5.3.1/esp-idf/components/app_update C:/Users/aleen/esp/v5.3.1/esp-idf/components/bootloader C:/Users/aleen/esp/v5.3.1/esp-idf/components/bootloader_support C:/Users/aleen/esp/v5.3.1/esp-idf/components/bt C:/Users/aleen/esp/v5.3.1/esp-idf/components/cmock C:/Users/aleen/esp/v5.3.1/esp-idf/components/console C:/Users/aleen/esp/v5.3.1/esp-idf/components/cxx C:/Users/aleen/esp/v5.3.1/esp-idf/components/driver C:/Users/aleen/esp/v5.3.1/esp-idf/components/efuse C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp-tls C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_adc C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_app_format C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_bootloader_format C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_coex C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_common C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_driver_ana_cmpr C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_driver_cam C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_driver_dac C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_driver_gpio C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_driver_gptimer C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_driver_i2c C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_driver_i2s C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_driver_isp C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_driver_jpeg C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_driver_ledc C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_driver_mcpwm C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_driver_parlio C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_driver_pcnt C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_driver_ppa C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_driver_rmt C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_driver_sdio C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_driver_sdm C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_driver_sdmmc C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_driver_sdspi C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_driver_spi C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_driver_touch_sens C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_driver_tsens C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_driver_uart C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_driver_usb_serial_jtag C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_eth C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_event C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_gdbstub C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_hid C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_http_client C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_http_server C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_https_ota C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_https_server C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_hw_support C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_lcd C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_local_ctrl C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_mm C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_netif C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_netif_stack C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_partition C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_phy C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_pm C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_psram C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_ringbuf C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_rom C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_system C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_timer C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_vfs_console C:/Users/aleen/esp/v5.3.1/esp-idf/components/esp_wifi C:/Users/aleen/esp/v5.3.1/esp-idf/components/espcoredump C:/Users/aleen/esp/v5.3.1/esp-idf/components/esptool_py C:/Users/aleen/esp/v5.3.1/esp-idf/components/fatfs C:/Users/aleen/esp/v5.3.1/esp-idf/components/freertos C:/Users/aleen/esp/v5.3.1/esp-idf/components/hal C:/Users/aleen/esp/v5.3.1/esp-idf/components/heap C:/Users/aleen/esp/v5.3.1/esp-idf/components/http_parser C:/Users/aleen/esp/v5.3.1/esp-idf/components/idf_test C:/Users/aleen/esp/v5.3.1/esp-idf/components/ieee802154 C:/Users/aleen/esp/v5.3.1/esp-idf/components/json C:/Users/aleen/esp/v5.3.1/esp-idf/components/log C:/Users/aleen/esp/v5.3.1/esp-idf/components/lwip C:/Users/aleen/Desktop/ESP32/c++/hello2/main C:/Users/aleen/esp/v5.3.1/esp-idf/components/mbedtls C:/Users/aleen/esp/v5.3.1/esp-idf/components/mqtt C:/Users/aleen/esp/v5.3.1/esp-idf/components/newlib C:/Users/aleen/esp/v5.3.1/esp-idf/components/nvs_flash C:/Users/aleen/esp/v5.3.1/esp-idf/components/nvs_sec_provider C:/Users/aleen/esp/v5.3.1/esp-idf/components/openthread C:/Users/aleen/esp/v5.3.1/esp-idf/components/partition_table C:/Users/aleen/esp/v5.3.1/esp-idf/components/perfmon C:/Users/aleen/esp/v5.3.1/esp-idf/components/protobuf-c C:/Users/aleen/esp/v5.3.1/esp-idf/components/protocomm C:/Users/aleen/esp/v5.3.1/esp-idf/components/pthread C:/Users/aleen/esp/v5.3.1/esp-idf/components/sdmmc C:/Users/aleen/esp/v5.3.1/esp-idf/components/soc C:/Users/aleen/esp/v5.3.1/esp-idf/components/spi_flash C:/Users/aleen/esp/v5.3.1/esp-idf/components/spiffs C:/Users/aleen/esp/v5.3.1/esp-idf/components/tcp_transport C:/Users/aleen/esp/v5.3.1/esp-idf/components/ulp C:/Users/aleen/esp/v5.3.1/esp-idf/components/unity C:/Users/aleen/esp/v5.3.1/esp-idf/components/usb C:/Users/aleen/esp/v5.3.1/esp-idf/components/vfs C:/Users/aleen/esp/v5.3.1/esp-idf/components/wear_levelling C:/Users/aleen/esp/v5.3.1/esp-idf/components/wifi_provisioning C:/Users/aleen/esp/v5.3.1/esp-idf/components/wpa_supplicant C:/Users/aleen/esp/v5.3.1/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/aleen/Desktop/ESP32/c++/hello2/build
+[0/1] Re-running CMake...
+[1/10] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Users\aleen\Desktop\ESP32\c++\hello2\build\bootloader\esp-idf\esptool_py && C:\Users\aleen\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/aleen/esp/v5.3.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/aleen/Desktop/ESP32/c++/hello2/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6880 bytes. 0x780 bytes (7%) free.
+[2/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/hello_world_main.c.obj
+[3/8] Linking C static library esp-idf\main\libmain.a
+[4/8] Generating ld/sections.ld
+[5/8] Linking CXX executable hello2.elf
+[6/8] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated C:/Users/aleen/Desktop/ESP32/c++/hello2/build/hello2.bin
+[7/8] cmd.exe /C "cd /D C:\Users\aleen\Desktop\ESP32\c++\hello2\build\esp-idf\esptool_py && C:\Users\aleen\.espressif\python_env\idf5.3_py3.11_env\Scripts\python.exe C:/Users/aleen/esp/v5.3.1/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/aleen/Desktop/ESP32/c++/hello2/build/partition_table/partition-table.bin C:/Users/aleen/Desktop/ESP32/c++/hello2/build/hello2.bin"
+hello2.bin binary size 0xc8cd0 bytes. Smallest app partition is 0x100000 bytes. 0x37330 bytes (22%) free.
+[7/8] cmd.exe /C "cd /D C:\Users\aleen\esp\v5.3.1\esp-idf\components\esptool_py && C:\Users\aleen\.espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Users/aleen/esp/v5.3.1/esp-idf -D SERIAL_TOOL=C:/Users/aleen/.espressif/python_env/idf5.3_py3.11_env/Scripts/python.exe;;C:/Users/aleen/esp/v5.3.1/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D WORKING_DIRECTORY=C:/Users/aleen/Desktop/ESP32/c++/hello2/build -P C:/Users/aleen/esp/v5.3.1/esp-idf/components/esptool_py/run_serial_tool.esptool.py --chip esp32 -p COM5 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 hello2.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.8.1
+Serial port COM5
+Connecting....
+Chip is ESP32-D0WD-V3 (revision v3.1)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: a0:b7:65:1a:30:f8
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x000d8fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 26752 bytes to 16353...
+Writing at 0x00001000... (100 %)
+Wrote 26752 bytes (16353 compressed) at 0x00001000 in 0.8 seconds (effective 273.0 kbit/s)...
+Hash of data verified.
+Compressed 822480 bytes to 520172...
+Writing at 0x00010000... (3 %)
+Writing at 0x0001ccdd... (6 %)
+Writing at 0x000245ef... (9 %)
+Writing at 0x00029445... (12 %)
+Writing at 0x000346b5... (15 %)
+Writing at 0x0003ac66... (18 %)
+Writing at 0x0004055e... (21 %)
+Writing at 0x00045eb2... (25 %)
+Writing at 0x0004bf50... (28 %)
+Writing at 0x00051c53... (31 %)
+Writing at 0x00057ad1... (34 %)
+Writing at 0x0005d4f1... (37 %)
+Writing at 0x00063813... (40 %)
+Writing at 0x000689b0... (43 %)
+Writing at 0x0006dff8... (46 %)
+Writing at 0x0007323f... (50 %)
+Writing at 0x00078904... (53 %)
+Writing at 0x0007df16... (56 %)
+Writing at 0x00083814... (59 %)
+Writing at 0x00089576... (62 %)
+Writing at 0x0008ee74... (65 %)
+Writing at 0x00094a63... (68 %)
+Writing at 0x0009a7b1... (71 %)
+Writing at 0x0009ffd3... (75 %)
+Writing at 0x000a5de2... (78 %)
+Writing at 0x000ac2a5... (81 %)
+Writing at 0x000b1c50... (84 %)
+Writing at 0x000b7805... (87 %)
+Writing at 0x000c2f77... (90 %)
+Writing at 0x000c8cef... (93 %)
+Writing at 0x000cf2e8... (96 %)
+Writing at 0x000d49d0... (100 %)
+Wrote 822480 bytes (520172 compressed) at 0x00010000 in 12.6 seconds (effective 523.3 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.0 seconds (effective 525.3 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+cmake"
